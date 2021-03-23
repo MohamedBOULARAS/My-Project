@@ -1,0 +1,112 @@
+.des-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cntt-des-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.des-description{
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    height: 150px;
+    width: 460px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.des-prix-ht {
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.pu-q {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.des-quantite{
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.des-prix-total{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.des-prix-remise{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.des-prix-total-ht {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+
+}
+.des-pt-ht{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+}
+
+.des-enregistrer {
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+
+}
+
+.des-annuler {
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.btn-des-modal{ 
+    margin-top: 70px;
+    margin-left: 130px;
+}

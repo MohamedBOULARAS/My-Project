@@ -1,0 +1,134 @@
+.form-login {
+    float: right;
+    background-color:rgb(251, 251, 251);
+    height: 75vh;
+    width: 30vw;
+    border: none;
+    border-radius: 8px;
+    margin-right: 200px;
+    padding-top: 50px;
+    margin-top: 80px;
+  }
+
+  .form {
+      padding-left: 30px;
+  }
+
+  .form-pw {
+    padding-left: 30px;
+
+  }
+
+  .titre {
+    padding-left: 30px;
+    padding-top: 40px; 
+  }
+  .btn-container {
+      width: 100%;
+        display: flex;
+        justify-content: flex-end;
+  }
+  .btn-login{
+      margin-top: 30px;
+      margin-right: 40px;
+      height: 40px;
+      width: 90px;
+      border: none;
+      color: rgb(255, 255, 255);
+      background-color:rgb(76, 76, 235);
+      border-radius: 5px;
+  }
+
+  .btn-login:hover {
+    color:rgb(76, 76, 235) ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(76, 76, 235);
+
+  }
+
+  .form-control-mail {
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(220, 216, 216);
+    height: 40px;
+    width: 26vw;
+    margin-bottom: 40px;
+  }
+
+
+  .form-control-pw {
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(220, 216, 216);
+    height: 40px;
+    width: 26vw;
+  }
+
+  .tell-form{
+      height: 100px;
+      width: 200px;
+      font-size:16px;
+      color:black;
+      margin-left: 30px;
+      margin-top: 50px;
+      border: 1px solid rgb(189, 184, 184);
+      border-radius: 5px;
+      padding-top: 22px;
+      padding-left: 10px;
+      padding-right: 0px;
+  }
+
+  .mail-form{
+    height: 100px;
+    width: 200px;
+    font-size:16px;
+    color:black;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 5px;
+    padding-top: 22px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+    @media only screen and (max-width: 780px) {
+
+        .form-login {
+            height: 550px;
+            width: 330px;      
+            margin-right: 25px;
+  
+        }
+
+        .form-control-mail{
+            width: 280px;
+        }
+
+        .form-control-pw{
+            width: 280px;
+        }
+
+        .mail-form{
+            padding-left: 5px;
+            font-size: 12px;
+            width: 130px;
+            height: 70px;
+            margin-right: 10px;
+        }
+
+        .tell-form{
+            padding-left: 5px;
+            margin-left: 20px;
+            font-size: 12px;
+            width: 125px;
+            height: 70px;
+        }
+
+      }

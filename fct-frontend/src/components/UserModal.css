@@ -1,0 +1,124 @@
+.all-ligne {
+    display: flex; 
+    flex-direction: column
+}
+
+
+.ligne-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ligne-2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ligne-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ligne-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.code-user {
+    margin-left: 30px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.userName{
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-left: 10px;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.user-first-name {
+    margin-left: 30px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.user-last-name{
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.user-email{
+    margin-left: 30px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.user-password{
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.role-user{
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+
+.user-enregistrer {
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+
+}
+
+.user-annuler {
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.bt-user-modal { 
+    margin-top: 80px;
+    margin-left: 170px;
+}

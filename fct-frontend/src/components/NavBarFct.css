@@ -1,0 +1,84 @@
+.navfct {
+    background: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+
+  }
+
+  .navfct.active {
+      background-color: linear-gradient(90deg,  0%,rgba(244, 193, 41, 0.466) rgb(235, 191, 46) 100%);
+  }
+  
+  .navfct-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 80vw;
+  }
+  
+  .navfct-logo {
+    padding-top: 50px;
+    color: rgb(11, 3, 92);
+    justify-self: start;
+    margin-right: 120px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .navfct-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-left: 120px;
+  }
+  
+  .navfct-item {
+    height: 80px;
+  }
+  
+  .navfct-links {
+    color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    padding-top:25px;
+    height: 100%;
+  }
+  /*
+  .navfct-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .btn-log-out:hover{
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+  */
+
+  .fa-bars {
+    color: #fff;
+  }
+
+  

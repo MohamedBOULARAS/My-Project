@@ -1,0 +1,110 @@
+.all-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.code-produit {
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.nom-produit{
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-left: 10px;
+    height: 50px;
+    width: 390px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.discription-produit {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 475px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+
+.prix-achat{
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 240px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.prix-vente{
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 240px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.note-produit{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 475px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+
+.produit-enregistrer {
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+
+}
+
+.produit-annuler {
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.btn-produit-modal{ 
+    margin-top: 55px;
+    margin-left: 130px;
+}

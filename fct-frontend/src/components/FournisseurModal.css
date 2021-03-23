@@ -1,0 +1,158 @@
+.fournisseur-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.code-fournisseur {
+    margin-left: 60px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.Raison-social{
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+    margin-bottom: 10px;
+}
+
+.nom-du-fournisseur {
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.prenom-du-fournisseur{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.email-fournisseur{
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.tel-fournisseur{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.adreese-fournisseur{
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.activité-fournisseur{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.nif-fournisseur{
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.nis-fournisseur{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.rib-fournisseur{
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.rc-fournisseur{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(70, 140, 245);
+}
+
+.fournisseur-note{
+    border-radius: 10px;
+    margin-left: 60px;
+    padding-left: 10px;
+    height: 100px;
+    width: 545px;
+    border-color: rgb(70, 140, 245);
+}
+
+.fournisseur-enregistrer {
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+
+}
+
+.fournisseur-annuler {
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.btn-fournisseur-modal{ 
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 230px;
+}

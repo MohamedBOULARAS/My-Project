@@ -1,0 +1,61 @@
+.user-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-cntt {
+    
+    width: 83vw;
+    margin-left: 0.4em;
+}
+.user-titre {
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.user-div-recherche {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-Recherche {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom:0px;
+    padding-left: 10px;
+    border: 1px solid rgb(70, 140, 245);
+}
+
+.user-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.user-btn-imprimer {
+    margin-left: -100px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.fa-trash-alt {
+    font-size: 25px;
+    color: red;
+}
+
+
+.fa-pen {
+    font-size: 25px;
+    color: rgb(70, 140, 245);
+}

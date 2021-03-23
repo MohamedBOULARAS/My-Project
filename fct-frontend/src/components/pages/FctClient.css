@@ -1,0 +1,78 @@
+.fctclient-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.fctclient-cntt {
+    
+    width: 83vw;
+    margin-left: 0.4em;
+}
+.fctclient-titre {
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.div-recherche-fctclient {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fctclient-Recherche {
+    margin-left: 15px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(70, 140, 245);
+}
+
+.fctclient-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+}
+
+
+.fctclient-btn-imprimer {
+    margin-left: -100px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.fa-trash-alt {
+    font-size: 25px;
+    color: red;
+}
+
+
+.fa-pen {
+    font-size: 25px;
+    color: rgb(70, 140, 245);
+}
+
+.fa-print {
+    font-size: 30px;
+    color: rgb(104, 103, 103);
+}
+
+.slt {
+    color:rgb(70, 140, 245);
+}
+
+.nif {
+background-color:rgb(70, 140, 245);
+}
+
+
+

@@ -1,0 +1,100 @@
+.client-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-cntt {
+    
+    width: 83vw;
+    margin-left: 0.4em;
+}
+.client-titre {
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.div-recherche-client {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-Recherche {
+    margin-left: 15px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(70, 140, 245);
+}
+
+.client-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+}
+
+
+.client-btn-imprimer {
+    margin-left: -100px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 140, 245);
+    background-color: transparent;
+    color: rgb(70, 140, 245);
+}
+
+.fa-trash-alt {
+    font-size: 25px;
+    color: red;
+}
+
+
+.fa-pen {
+    font-size: 25px;
+    color: rgb(70, 140, 245);
+}
+
+
+.custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 40px;
+      width: 100px;
+    content: 'IMPORTER';
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 8px 16px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 11pt;
+  }
+
+  .custom-file-input:active {
+    outline: 0;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+  }
+
+  .client-excel {
+      display: flex;
+      background-color:rgb(70, 140, 245);
+  }
